@@ -1,6 +1,6 @@
 # Harman Website
 
-A modern website for Harman products and services.
+Personal website
 
 ## Project Structure
 - `index.html` - Main entry point
