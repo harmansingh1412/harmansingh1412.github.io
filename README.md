@@ -1,6 +1,6 @@
 # Harman Website
 
-Personal website
+Personal website: https://harmansingh1412.github.io/
 
 ## Project Structure
 - `index.html` - Main entry point
