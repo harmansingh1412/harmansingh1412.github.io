@@ -28,7 +28,7 @@ body {
 
 /* Header Styles */
 .header {
-    background: linear-gradient(135deg, rgba(19, 64, 116, 0.8) 0%, rgba(11, 37, 69, 0.8) 100%), url('../Water.png');
+    background: linear-gradient(135deg, rgba(19, 64, 116, 0.8) 0%, rgba(11, 37, 69, 0.8) 100%), url('../water2.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
