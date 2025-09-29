@@ -291,6 +291,26 @@ hr.thin-sep {
     margin: 0.75rem 0;
 }
 
+/* Teaching: Student Mentorship list with right-aligned year */
+ul.student-mentorship {
+    padding-left: 1.25rem;
+}
+ul.student-mentorship li {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 0.4rem 0;
+}
+ul.student-mentorship li .item-text {
+    flex: 1 1 auto;
+}
+ul.student-mentorship li .year {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    color: var(--text-light);
+}
+
 /* Footer Styles */
 .footer {
     background: var(--primary-blue);
