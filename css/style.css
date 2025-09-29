@@ -296,19 +296,17 @@ ul.student-mentorship {
     padding-left: 1.25rem;
 }
 ul.student-mentorship li {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr auto;
     align-items: baseline;
-    justify-content: space-between;
-    gap: 1rem;
+    column-gap: 1rem;
     margin: 0.4rem 0;
 }
-ul.student-mentorship li .item-text {
-    flex: 1 1 auto;
-}
+/* .student-mentorship .item-text uses the first grid column implicitly */
 ul.student-mentorship li .year {
-    flex: 0 0 auto;
     white-space: nowrap;
     color: var(--text-light);
+    text-align: right;
 }
 
 /* Footer Styles */
