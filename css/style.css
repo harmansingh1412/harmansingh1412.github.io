@@ -261,6 +261,15 @@ body {
     text-decoration: underline;
 }
 
+/* Thin Separator for Lists */
+hr.thin-sep {
+    border: 0;
+    height: 1px;
+    background: var(--border-light);
+    opacity: 0.9;
+    margin: 1rem 0;
+}
+
 /* Footer Styles */
 .footer {
     background: var(--primary-blue);
