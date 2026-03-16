@@ -389,6 +389,30 @@ ul.student-mentorship li .year {
     }
 }
 
+/* Portfolio Styles */
+.portfolio-item {
+    margin-bottom: 1.5rem;
+}
+
+.portfolio-img-wrapper {
+    margin-top: 1rem;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--border-light);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.portfolio-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-img-wrapper:hover .portfolio-img {
+    transform: scale(1.02);
+}
+
 /* Loading Animation */
 .loading {
     display: inline-block;
