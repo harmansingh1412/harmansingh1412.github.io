@@ -219,7 +219,7 @@ body {
 /* Grid Layout */
 .grid {
     display: grid;
-    gap: 2rem;
+    gap: 1rem;
     margin-bottom: 2rem;
 }
 
