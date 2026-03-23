@@ -88,6 +88,29 @@ body {
     gap: 0.5rem;
 }
 
+ .center-actions {
+     display: flex;
+     justify-content: center;
+     gap: 0.75rem;
+     flex-wrap: wrap;
+     margin-top: 1rem;
+ }
+
+ .btn {
+     display: inline-block;
+     background: var(--primary-blue);
+     color: var(--white);
+     padding: 0.75rem 1.25rem;
+     border-radius: 8px;
+     text-decoration: none;
+     font-weight: 500;
+     transition: background 0.2s ease;
+ }
+
+ .btn:hover {
+     background: var(--accent-blue);
+ }
+
 /* Navigation Styles */
 .nav {
     background: var(--secondary-blue);
